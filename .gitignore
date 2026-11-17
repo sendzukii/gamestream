@@ -1,0 +1,15 @@
+# Swift
+.build/
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+build/
+Payload/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
