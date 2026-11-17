@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     name: Build GameStream
-    runs-on: macos-latest
+    timeout-minutes: 60
+    runs-on: macos-13
 
     steps:
       - name: Checkout
